@@ -160,7 +160,7 @@ module.exports = FeedForm;
 
 var React = require('react');
 
-var FeedItem = React.createClass({displayName: 'FeedItem',  
+var FeedItem = React.createClass({displayName: 'FeedItem',
   pay: function(newCount){
     this.props.onPay({
       key: this.props.key,
