@@ -85,11 +85,24 @@ var Feed = React.createClass({
               <h4>
                 <em>This App is super easy to use. The person paying the bill
                 will click the up button equal to the people present at the
-                meal and the down button once for all the other guys. Other
-                person paying will have balance added to their account so next
-                time the other people will pay for his meal. Other people who didn't
-                pay for the meal will have negative balance in their accounts
-                so next time they will pay finish the owes.
+                meal excluding him and the down button once for all the other guys.
+                Now the person will have balance added to his account so next
+                time the other people will pay for his meal and utilize the positive
+                amount. Other people who didn't pay for the meal will have negative
+                balance in their accounts so next time they will pay to finish the owes.
+                <br></br>
+                For Example: If Bilal Pay the bill he will positive add Rs. 20 to his
+                account and add negative Rs. 10 to pay the balance of his friends.
+                Now the balance is Bilal: 20, Abid: -10, Abrar: -10.
+                <br></br>
+                Next time if Abrar pay the bill he will add positive Rs. 20 and negative
+                10 to the others account. Now the balance is Bilal: 10, Abid: -20, Abrar:10.
+                <br></br>
+                Next time if Abid pay the bill he will repeat the procedure. The balance will
+                be Bilal: 0, Abid: 0, Abrar: 0.
+                <br></br>
+                The goal is to clear your negative balance and utilizing the positive balance.
+                You are good to go now. Have fun! 
                 </em>
               </h4>
               <footer>I hope you won't have issues using <cite title="Source Title">Payment Hisab</cite></footer>
